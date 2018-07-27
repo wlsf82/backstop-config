@@ -1,0 +1,22 @@
+{
+  "name": "backstop-config",
+  "description": "sample project with a minimalist implementation of backstopjs tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run backstop:test",
+    "backstop:test": "rm -rf backstop_data/bitmaps_test && backstop test --config=backstopSettings.js",
+    "backstop:approve": "backstop approve --config=backstopSettings.js"
+  },
+  "author": "Walmyr Lima e Silva Filho <wlsf82@gmail.com> (http://walmyr-filho.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "ajv": "^6.5.2",
+    "backstopjs": "^3.5.2",
+    "react-dom": "^15.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wlsf82/backstop-config"
+  }
+}
