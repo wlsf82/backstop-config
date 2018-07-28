@@ -1,6 +1,6 @@
 # backstop-config
 
-Sample project with a minimalist implementation of BackstopJS tests.
+Sample project with a minimalist implementation of [BackstopJS](https://github.com/garris/BackstopJS) tests.
 
 ## Pre-requirements
 
