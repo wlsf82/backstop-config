@@ -2,6 +2,10 @@
 
 Sample project with a minimalist implementation of BackstopJS tests.
 
+## Pre-requirements
+
+- [Node.js](https://nodejs.org/) v8+
+
 ## Installation
 
 Run `npm i` to install the dev dependencies.
