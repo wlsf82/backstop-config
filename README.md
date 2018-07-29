@@ -22,7 +22,7 @@ Run `npm run backstop:approve` to approve bitmaps as references to be used durin
 
 A test report like this should be available after approving the bitmaps as references and re-running the tests.
 
-![BackstopJS html report](./backstopjs-report.png)
+![BackstopJS html report](./assets/backstopjs-report.png)
 
 ___
 
