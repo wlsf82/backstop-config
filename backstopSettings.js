@@ -1,5 +1,4 @@
-const relativePathConfig = require('./relativePaths.js');
-const relativePaths = relativePathConfig.array;
+const relativePaths = require('./relativePaths.js');
 const scenarios = [];
 
 relativePaths.map(relativePath => {
