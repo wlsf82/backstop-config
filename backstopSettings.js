@@ -11,6 +11,10 @@ relativePaths.map(relativePath => {
       "iframe",
       ".widget_eu_cookie_law_widget"
     ],
+    removeSelectors: [
+      ".widget_recent_entries",
+      ".widget_top-posts"
+    ],
     misMatchThreshold : 0.1,
     requireSameDimensions: false
   });
