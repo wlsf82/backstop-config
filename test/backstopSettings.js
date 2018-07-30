@@ -1,19 +1,17 @@
 const relativePaths = require('./relativePaths.js');
-const host = "http://example.com";
 const scenarios = [];
-const projectId = "sample project"
 
 relativePaths.map(relativePath => {
   scenarios.push({
     label: relativePath,
-    url: `${host}${relativePath}`,
+    url: `${process.env.HOST}${relativePath}`,
     delay: 3000,
     requireSameDimensions: false
   });
 });
 
 module.exports = {
-  id: projectId,
+  id: process.env.PROJECT_ID,
   viewports: [
     {
       name: "desktop",
