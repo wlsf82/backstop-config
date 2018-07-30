@@ -1,10 +1,11 @@
 const relativePaths = require('./relativePaths.js');
+const host = "http://talkingabouttesting.com/";
 const scenarios = [];
 
 relativePaths.map(relativePath => {
   scenarios.push({
     label: relativePath,
-    url: `http://talkingabouttesting.com/${relativePath}`,
+    url: `${host}${relativePath}`,
     readySelector: "iframe",
     delay: 3000,
     hideSelectors: [
