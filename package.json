@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run backstop:test",
-    "backstop:test": "rm -rf backstop_data/bitmaps_test && backstop test --config=backstopSettings.js",
-    "backstop:approve": "backstop approve --config=backstopSettings.js"
+    "backstop:test": "rm -rf test/backstop_data/bitmaps_test && backstop test --config=test/backstopSettings.js",
+    "backstop:approve": "backstop approve --config=test/backstopSettings.js"
   },
   "author": "Walmyr Lima e Silva Filho <wlsf82@gmail.com> (http://walmyr-filho.com)",
   "license": "MIT",
