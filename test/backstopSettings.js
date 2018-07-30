@@ -1,34 +1,36 @@
 const relativePaths = require('./relativePaths.js');
-const host = "http://talkingabouttesting.com/";
+const host = "http://example.com";
 const scenarios = [];
+const projectId = "sample project"
 
 relativePaths.map(relativePath => {
   scenarios.push({
     label: relativePath,
     url: `${host}${relativePath}`,
-    readySelector: "iframe",
     delay: 3000,
-    hideSelectors: [
-      "iframe",
-      ".widget_eu_cookie_law_widget"
-    ],
-    removeSelectors: [
-      ".widget_recent_entries",
-      ".widget_top-posts"
-    ],
     misMatchThreshold : 0.1,
     requireSameDimensions: false
   });
 });
 
 module.exports = {
-  id: "talking-about-testing",
+  id: projectId,
   viewports: [
     {
       name: "desktop",
       width: 1280,
       height: 1024
-    }
+    },
+    {
+      name: "tablet",
+      width: 1024,
+      height: 768
+    },
+    {
+      name: "phone",
+      width: 320,
+      height: 480
+    },
   ],
   scenarios,
   paths: {
