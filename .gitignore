@@ -1,3 +1,5 @@
 .DS_Store
+setup.sh
 node_modules
 test/backstop_data
+test/relativePaths.js
