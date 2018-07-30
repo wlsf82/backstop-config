@@ -8,7 +8,7 @@ A Sample project with a minimalist implementation of [BackstopJS](https://github
 
 ## Installation
 
-Run `npm i` to install the dev dependencies.
+Run `npm i ajv@6.5.2 backstopjs@3.5.2 react-dom@15.6.2 --no-save` to install the peer dependencies.
 
 ## Tests' setup
 
