@@ -1,6 +1,5 @@
 module.exports = [
   '/',
-  '/page0',
   '/page1',
   '/page2',
   '/page3',
@@ -10,5 +9,4 @@ module.exports = [
   '/page7',
   '/page8',
   '/page9',
-  '/page10',
 ];
