@@ -10,6 +10,10 @@ Sample project with a minimalist implementation of [BackstopJS](https://github.c
 
 Run `npm i` to install the dev dependencies.
 
+## Tests' setup
+
+Before running the tests, make a copy of the file `sampleSetup.sh` and name it as `setup.sh`, and make a copy of the file `test/sampleRelativePaths.js` and name it as `test/relativePaths.js`, then update their values accordingly.
+
 ## Running the tests
 
 Run `npm t` to run the Backstop screenshot comparison tests.
