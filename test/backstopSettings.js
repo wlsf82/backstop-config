@@ -8,7 +8,6 @@ relativePaths.map(relativePath => {
     label: relativePath,
     url: `${host}${relativePath}`,
     delay: 3000,
-    misMatchThreshold : 0.1,
     requireSameDimensions: false
   });
 });
@@ -41,11 +40,8 @@ module.exports = {
   report: ["browser"],
   engine: "puppeteer",
   engineOptions: {
-    waitTimeout: 5000,
     args: ["--no-sandbox"]
   },
   asyncCaptureLimit: 5,
-  asyncCompareLimit: 50,
-  debug: false,
-  debugWindow: false
+  asyncCompareLimit: 50
 };
