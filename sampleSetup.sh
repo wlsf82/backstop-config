@@ -1,5 +1,5 @@
-export HOST=http://example.com
+export DOMAIN=http://example.com
 export PROJECT_ID='sample project'
 
-echo "Hostname:" $HOST
+echo "Domain:" $DOMAIN
 echo "Project ID:" $PROJECT_ID

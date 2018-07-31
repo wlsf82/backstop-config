@@ -4,7 +4,7 @@ const scenarios = [];
 relativePaths.map(relativePath => {
   scenarios.push({
     label: relativePath,
-    url: `${process.env.HOST}${relativePath}`,
+    url: `${process.env.DOMAIN}${relativePath}`,
     delay: 3000,
     requireSameDimensions: false
   });
