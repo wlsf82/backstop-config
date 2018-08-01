@@ -10,6 +10,8 @@ A sample project with a minimalist implementation of [BackstopJS](https://github
 
 Run `npm i ajv@6.5.2 backstopjs@3.5.2 react-dom@15.6.2 --no-save` to install the peer dependencies.
 
+> When installing these libraries in your own project it may be better to install them as dev dependencies. Use `npm i ajv@6.5.2 backstopjs@3.5.2 react-dom@15.6.2 -D` then.
+
 ## Tests' setup
 
 Before running the tests, make a copy of the file `sampleSetup.sh` and name it as `setup.sh`, and make a copy of the file `test/sampleRelativePaths.js` and name it as `test/relativePaths.js`, then update their values accordingly.
