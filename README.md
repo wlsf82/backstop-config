@@ -16,6 +16,10 @@ Run `npm i ajv@6.5.2 backstopjs@3.5.2 react-dom@15.6.2 --no-save` to install the
 
 Before running the tests, make a copy of the file `sampleSetup.sh` and name it as `setup.sh`, and make a copy of the file `test/sampleRelativePaths.js` and name it as `test/relativePaths.js`, then update their values accordingly.
 
+### NPM scripts
+
+In case of using this tests in your own project, copy the npm scripts section from [`package.json`](./package.json) to your own `package.json` file.
+
 ## Running the tests
 
 Run `npm t` to run the Backstop screenshot comparison tests.
