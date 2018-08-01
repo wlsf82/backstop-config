@@ -20,7 +20,7 @@ Before running the tests, make a copy of the file [`sampleSetup.sh`](./sampleSet
 
 > In case of using these tests in your own project, copy the npm scripts section from [`package.json`](./package.json) to your own `package.json` file. Also, copy the file [`test/backstopSettings.js`](./test/backstopSettings.js) to your `test` directory.
 
-> If you use Windows operational system, take a look at the [`NPM_SCRIPTS_UPDATES_FOR_WINDOWS.md`](./NPM_SCRIPTS_UPDATES_FOR_WINDOWS.md) file.
+> If you use Windows operational system, take a look at the [`NPM_SCRIPT_UPDATE_FOR_WINDOWS.md`](./NPM_SCRIPT_UPDATE_FOR_WINDOWS.md) file.
 
 ## Running the tests
 
