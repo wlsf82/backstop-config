@@ -36,6 +36,10 @@ A test report like this should be available after approving the bitmaps as refer
 
 ![BackstopJS html report](./assets/backstopjs-report.png)
 
+## Feedback
+
+Your feedback is very important for this project, so, if you have any doubts or suggestions, open an issue, and I'll look into it.
+
 ___
 
 Made with 💚 by [Walmyr Filho](http://walmyr-filho.com)
