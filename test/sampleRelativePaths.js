@@ -1,3 +1,6 @@
+// Update the values of this array with the relative URLs of your website. E.g., /about, /contact, /pricing, etc.
+// Use '/' to test the homepage of your website.
+
 module.exports = [
   '/',
   '/page1',

@@ -12,6 +12,7 @@ relativePaths.map(relativePath => {
 
 module.exports = {
   id: process.env.PROJECT_ID,
+  // Add, remove, or update viewports if needed.
   viewports: [
     {
       name: "desktop",
