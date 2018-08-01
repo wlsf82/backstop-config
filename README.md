@@ -6,6 +6,8 @@ A sample project with a minimalist implementation of [BackstopJS](https://github
 
 - [Node.js](https://nodejs.org/) v8+
 
+> To check your node.js version run `node -v`. You should see something like this `v8.11.3`.
+
 ## Installation
 
 Run `npm i ajv@6.5.2 backstopjs@3.5.2 react-dom@15.6.2 --no-save` to install the peer dependencies.
