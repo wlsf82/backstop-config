@@ -14,7 +14,7 @@ Run `npm i ajv@6.5.2 backstopjs@3.5.2 react-dom@15.6.2 --no-save` to install the
 
 ## Tests' setup
 
-Before running the tests, make a copy of the file `sampleSetup.sh` and name it as `setup.sh`, and make a copy of the file `test/sampleRelativePaths.js` and name it as `test/relativePaths.js`, then update their values accordingly.
+Before running the tests, make a copy of the file [`sampleSetup.sh`](./sampleSetup.sh) and name it as `setup.sh`, and make a copy of the file [`test/sampleRelativePaths.js`](./test/sampleRelativePaths.js) and name it as `test/relativePaths.js`, then update their values accordingly.
 
 ### NPM scripts
 
