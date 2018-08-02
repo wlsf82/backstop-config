@@ -44,6 +44,10 @@ A test report like this should be available after approving the bitmaps as refer
 
 Your feedback is very important for this project. If you have any doubts or suggestions, open an issue, and I'll look into it.
 
+## Contribute
+
+This is an open source project. Feel free to fork, improve it and create a pull request. I'll be happy to review and have it merged when it gets in a good state.
+
 ___
 
 Made with 💚 by [Walmyr Filho](http://walmyr-filho.com)
