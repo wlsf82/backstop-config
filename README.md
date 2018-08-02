@@ -16,11 +16,13 @@ Run `npm i ajv@6.5.2 backstopjs@3.5.2 react-dom@15.6.2 --no-save` to install the
 
 ## Tests' setup
 
-Before running the tests, make a copy of the file [`test/backstopSettings.js`](./test/backstopSettings.js) exactly as it is, and make a copy of the file [`test/sampleRelativePaths.js`](./test/sampleRelativePaths.js) and name it as `test/relativePaths.js`, then update their values accordingly (follow the instructions in the comments of each file).
+## Tests' setup
 
-> Note that both files are located inside the `test` directory.
+Copy of the files [`test/backstopSettings.js`](./test/backstopSettings.js), and [`test/relativePaths.js`](./test/sampleRelativePaths.js) to your compouter (inside the `test` directory of your project, considering the `test` directory is located in the root level of the project), then update their values accordingly (follow the instructions in the comments of each file).
 
-> In case of using these tests in your own project, copy also the npm scripts section from [`package.json`](./package.json) to your own `package.json` file.
+> If the `test` directory doesn't exist, create it before copying the files into it.
+
+Next, copy the npm scripts section from [`package.json`](./package.json) to your own `package.json` file.
 
 > If you use Windows operational system, take a look at the [`NPM_SCRIPT_UPDATE_FOR_WINDOWS.md`](./NPM_SCRIPT_UPDATE_FOR_WINDOWS.md) file.
 
