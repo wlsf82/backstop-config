@@ -12,9 +12,9 @@ A sample project with a simple implementation of [BackstopJS](https://github.com
 
 Run `npm i ajv@6.5.2 backstopjs@3.5.2 react-dom@15.6.2 --no-save` to install the peer dependencies.
 
-> When installing these libraries in your own project it may be better to install them as dev dependencies. Use `npm i ajv@6.5.2 backstopjs@3.5.2 react-dom@15.6.2 -D` then.
+> When installing these libraries in your own project it's better to install them as dev dependencies. Run `npm i ajv@6.5.2 backstopjs@3.5.2 react-dom@15.6.2 -D` inside the root directory of your project to do it.
 
-## Tests' setup
+> You may need to run `npm init` first. If you do so, press ENTER for all questions to accept the defaults.
 
 ## Tests' setup
 
