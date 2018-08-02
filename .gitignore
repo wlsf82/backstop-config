@@ -1,4 +1,3 @@
 .DS_Store
 node_modules
 test/backstop_data
-test/relativePaths.js
