@@ -2,7 +2,7 @@ const relativePaths = require('./relativePaths.js');
 const scenarios = [];
 
 const domain = "http://example.com"; // Put the domain of your website here.
-const projectId = "sample project"; // Put the id of your project here.
+const projectId = "sample project"; // Put the id of your project here. It can be any string.
 
 relativePaths.map(relativePath => {
   scenarios.push({
