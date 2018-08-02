@@ -1,17 +1,20 @@
 const relativePaths = require('./relativePaths.js');
 const scenarios = [];
 
+const domain = "http://example.com"; // Put the domain of your website here.
+const projectId = "sample project"; // Put the id of your project here.
+
 relativePaths.map(relativePath => {
   scenarios.push({
     label: relativePath,
-    url: `${process.env.DOMAIN}${relativePath}`,
+    url: `${domain}${relativePath}`,
     delay: 3000,
     requireSameDimensions: false
   });
 });
 
 module.exports = {
-  id: process.env.PROJECT_ID,
+  id: projectId,
   // Add, remove, or update viewports if needed.
   viewports: [
     {
