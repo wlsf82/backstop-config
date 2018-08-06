@@ -17,7 +17,7 @@ Inside the directory of the cloned project, run `npm i` to install the dev depen
 
 ## Tests' setup
 
-There are only two files you will have to change to get the project configured to run screenshot comparison tests for you website, they are [`test/backstopSettings.js`](./test/backstopSettings.js), and [`test/relativePaths.js`](./test/relativePaths.js). Update these files by following the instructions in the comments of each of them.
+There is only one file you will have to change to get the project configured to run screenshot comparison tests for you website, which is [`test/basicConfig.js`](./test/basicConfig.js). Update this file by following the instructions in its comments.
 
 > If you use Windows operational system, take a look at the [`NPM_SCRIPT_UPDATE_FOR_WINDOWS.md`](./NPM_SCRIPT_UPDATE_FOR_WINDOWS.md) file.
 
