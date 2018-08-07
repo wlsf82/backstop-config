@@ -12,10 +12,10 @@ const relativeUrls =[
   '/page4',
 ];
 
-// Leave the below array as is if you want to test your website in the three listed viewports.
-// The suported view ports are: phone, tablet, and desktop.
+// Leave the below array as is if you want to test your website using the viewports listed below.
+// The suported viewports are: phone, tablet, and desktop.
 // No other viewports are supported.
-// You can remove the viewports that you don't need.
+// You can remove the viewports that you don't need, but at least one is required.
 const viewports = [
   "phone",
   "tablet",
