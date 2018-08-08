@@ -1,4 +1,4 @@
-const basicConfig = require('./basicConfig');
+const basicConfig = require("./basicConfig");
 const scenarios = [];
 const viewports =[];
 
