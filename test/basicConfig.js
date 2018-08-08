@@ -1,4 +1,4 @@
-const baseUrl = "http://example.com"; // Put the base url of your website here.
+const baseUrl = "http://example.com"; // Put the base URL of your website here.
 const projectId = "sample project"; // Put the id of your project here. It can be any string.
 
 // Update the values of the below array with the relative URLs of your website. E.g., "/about", "/contact", "/pricing", etc.
