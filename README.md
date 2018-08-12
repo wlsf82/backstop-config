@@ -13,7 +13,7 @@ A sample project with a simple implementation of [BackstopJS](https://github.com
 
 [Clone](https://help.github.com/articles/cloning-a-repository/) the project to your computer. Run `git clone https://github.com/wlsf82/backstop-config.git`.
 
-Inside the directory of the cloned project, run `npm i` to install the dev dependencies.
+Inside the directory of the cloned project, run `npm i` to install the project dependencies.
 
 ## Tests' setup
 
