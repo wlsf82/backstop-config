@@ -50,5 +50,5 @@ module.exports = {
     args: ["--no-sandbox"]
   },
   asyncCaptureLimit: 5,
-  asyncCompareLimit: 50
+  asyncCompareLimit: 50,
 };
