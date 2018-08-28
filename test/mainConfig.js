@@ -1,6 +1,6 @@
 const basicConfig = require("./basicConfig");
 const scenarios = [];
-const viewports =[];
+const viewports = [];
 
 basicConfig.relativeUrls.map(relativeUrl => {
   scenarios.push({
