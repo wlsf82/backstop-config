@@ -6,8 +6,9 @@ A sample project with a simple implementation of [BackstopJS](https://github.com
 
 - [git](https://git-scm.com/downloads)
 - [Node.js](https://nodejs.org/) (version 8 or greater)
+- [Chrome](https://www.google.com/chrome/) browser
 
-> To check the Node.js version installed in your compouter, run `node -v`. You should see something like this `v8.11.3`. If you don't have Node.js installed, use the above link to download and install it.
+> To check the Node.js version installed in your compouter, run `node -v`. You should see something like this `v8.12.0`. If you don't have Node.js installed, use the above link to download and install it.
 
 ## Installation
 
