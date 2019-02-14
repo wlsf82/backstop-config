@@ -1,4 +1,5 @@
 const basicConfig = require("./basicConfig");
+const THREE_SECONDS_IN_MS = 3000;
 const scenarios = [];
 const viewports = [];
 
@@ -6,7 +7,7 @@ basicConfig.relativeUrls.map(relativeUrl => {
   scenarios.push({
     label: relativeUrl,
     url: `${basicConfig.baseUrl}${relativeUrl}`,
-    delay: 3000,
+    delay: THREE_SECONDS_IN_MS,
     requireSameDimensions: false,
   });
 });
