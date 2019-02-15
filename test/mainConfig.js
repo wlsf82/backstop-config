@@ -14,27 +14,23 @@ basicConfig.relativeUrls.map(relativeUrl => {
 
 basicConfig.viewports.map(viewport => {
   if (viewport === "phone") {
-    viewports.push({
-      name: viewport,
-      width: 320,
-      height: 480,
-    });
+    pushViewport(viewport, 320, 480);
   }
   if (viewport === "tablet") {
-    viewports.push({
-      name: viewport,
-      width: 1024,
-      height: 768,
-    });
+    pushViewport(viewport, 1024, 768);
   }
   if (viewport === "desktop") {
-    viewports.push({
-      name: viewport,
-      width: 1280,
-      height: 1024,
-    });
+    pushViewport(viewport, 1280, 1024);
   }
 });
+
+function pushViewport(viewport, width, height) {
+  viewports.push({
+    name: viewport,
+    width,
+    height,
+  });
+}
 
 module.exports = {
   id: basicConfig.projectId,
