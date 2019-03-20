@@ -58,6 +58,12 @@ Done! Now every time you make changes that may affect the website visually, you 
 
 > In case of test failures due to expected visual changes in the website, remember to re-approve the new screenshots as references. Use `npm run backstop:approve` to do so.
 
+## Keeping track of bitmaps references
+
+You can use [git](https://git-scm.com/downloads) to keep track of the bitmaps reference, also references in this document as screenshots references.
+
+To do so you just need to commit the files in the `test/backstop_data/bitmaps_reference/` directory, as soon as you reviewed the screenshots, and they look good for usage in future comparisons.
+
 ## Test result with failures due to visual changes
 
 Below you can see an example of the test report when BackstopJS finds a visual failure.
