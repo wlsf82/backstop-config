@@ -1,8 +1,8 @@
-const baseUrl = "http://example.com"; // Put the base URL of your website here.
-const projectId = "sample project"; // Put the id of your project here. It can be any string.
+const baseUrl = "http://example.com"; // Replace the value "http://example.com" by the base URL of the website you want to test.
+const projectId = "sample project"; // Replace the value "sample project" by the id of your project. It can be any string (e.g., "my-website").
 
-// Update the values of the below array with the relative URLs of your website. E.g., "/about", "/contact", "/pricing", etc.
-// Use "/" to test the homepage of your website.
+// Replace the values of the below array with the relative URLs of your website. E.g., "/about", "/contact", "/pricing", etc.
+// Use just "/" to test the homepage of your website.
 // Add as many relative URLs as you need.
 const relativeUrls =[
   "/",
@@ -13,9 +13,9 @@ const relativeUrls =[
 ];
 
 // Leave the below array as is if you want to test your website using the viewports listed below.
-// The suported viewports are: phone, tablet, and desktop.
+// The suported viewports are: phone (320px X 480px), tablet (1024px X 768px), and desktop (1280px X 1024px).
 // No other viewports are supported.
-// You can remove the viewports that you don't need, but at least one is required.
+// You can remove the viewports that you don't need, but at least one of them is required.
 const viewports = [
   "phone",
   "tablet",
