@@ -26,7 +26,15 @@ Done. You are ready to go!
 
 ## Running the tests
 
-Run `npm t` to run the Backstop screenshot comparison tests against all the configured URLs of your website.
+Run `npm t` to run the Backstop screenshot comparison tests against all the configured URLs of your website, in all the configured viewports.
+
+### Running tests on Docker
+
+Alternatively you can run the tests in a Docker container by running `npm run test:docker`.
+
+> Note: For Windows and Mac users, Docker needs to be installed and running. It can be downloaded from the [dockerhub](https://hub.docker.com).
+
+> For more information about running BackstopJS tests on Docker go to the [official documentation](https://github.com/garris/BackstopJS#using-docker-for-testing-across-different-environments).
 
 ## Approving bitmaps as references
 
