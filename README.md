@@ -58,6 +58,14 @@ Done! Now every time you make changes that may affect the website visually, you 
 
 > In case of test failures due to expected visual changes in the website, remember to re-approve the new screenshots as references. Use `npm run backstop:approve` to do so.
 
+## Test result with failures due to visual changes
+
+Below you can see an example of the test report when BackstopJS finds a visual failure.
+
+![BackstopJS html report with failure](./assets/backstopjs-report-failure-diff.png)
+
+> In case the failure is due to a real visual bug, provide a fix and continue using the same bitmaps as references (there is no need to re-approve them.)
+
 ## Feedback
 
 Your feedback is very important for this project. If you have any doubts or suggestions, open an issue, and I'll look into it as soon as possible.
