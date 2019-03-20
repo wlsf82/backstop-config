@@ -1,3 +1,4 @@
 .DS_Store
 node_modules
-test/backstop_data
+test/backstop_data/bitmaps_test
+test/backstop_data/html_report
