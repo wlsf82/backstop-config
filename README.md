@@ -38,13 +38,13 @@ Alternatively you can run the tests in a Docker container by running `npm run te
 
 ## Approving bitmaps as references
 
-For the first time running the tests, it is expected that all of them fail and an HTML report should be automatically opened for you to review the taken screenshots. It will look like the one below.
+In the first time running the tests, it is expected that all of them fail, and an HTML report should be automatically opened for you to review the taken screenshots. It will look like the one below.
 
 ![BackstopJS html report - first time tests execution](./assets/backstop-config-first-report.png)
 
 If all the screenshots represent the correct state of the website, you can approve them as bitmaps references so that next time you run the tests, new screenshots will be taken, and compared with the approved ones.
 
-Run `npm run backstop:approve` to approve bitmaps as references to be used during screenshot comparison tests.
+Run `npm run backstop:approve` to approve the bitmaps as references to be used during the screenshot comparison tests.
 
 ## Re-running the tests
 
@@ -64,7 +64,7 @@ Your feedback is very important for this project. If you have any doubts or sugg
 
 ## Contribute
 
-This is an open source project. Feel free to [fork](https://help.github.com/articles/fork-a-repo/), improve it and create a [pull request](https://help.github.com/articles/about-pull-requests/). I'll be happy to review and have it merged when it gets in a good state.
+This is an open source project. Feel free to [fork](https://help.github.com/articles/fork-a-repo/), improve it, and then create a [pull request](https://help.github.com/articles/about-pull-requests/). I'll be happy to review and have it merged when it gets in a good state.
 
 ___
 
