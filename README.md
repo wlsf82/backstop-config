@@ -82,4 +82,4 @@ This is an open source project. Feel free to [fork](https://help.github.com/arti
 
 ___
 
-Made with 💚 by [Walmyr Filho](http://walmyr-filho.com)
+Made with 💚 by [Walmyr Filho](https://walmyr-filho.com)
