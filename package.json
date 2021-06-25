@@ -11,11 +11,11 @@
   },
   "author": "Walmyr Lima e Silva Filho <wlsf82@gmail.com> (http://walmyr-filho.com)",
   "license": "MIT",
-  "dependencies": {
-    "backstopjs": "^3.8.5"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/wlsf82/backstop-config"
+  },
+  "devDependencies": {
+    "backstopjs": "^5.3.4"
   }
 }
